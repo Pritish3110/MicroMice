@@ -76,15 +76,19 @@ This Micromouse robot implements intelligent maze navigation through:
 4. **Run the simulation**:
    - Click the "Run" button to start maze solving
 
-### Platform-Specific Examples
+### Platform-Specific Configuration Examples
 
 #### Windows Configuration:
 - **Build command**: `gcc -o mybot.exe main.c api.c`
 - **Run command**: `mybot.exe`
 
+![Windows Configuration](https://github.com/Pritish3110/MicroMice/blob/main/config-windows.png)
+
 #### Linux (Ubuntu) Configuration:
 - **Build command**: `gcc -o mybot main.c api.c`
 - **Run command**: `./mybot`
+
+![Linux Configuration](https://github.com/Pritish3110/MicroMice/blob/main/config-linux.png)
 
 ### Important Notes
 - **Windows users**: May need to download and install [MinGW](https://www.mingw-w64.org/) for GCC compilation
